@@ -1,0 +1,47 @@
+/* 
+    Selector :
+
+    1. Selector tag ---> p, h1, div
+    2. Selector class --> .namakelas
+    3. Selector id ---> #namaid
+
+
+*/
+
+body{
+    background-color: black;
+}
+
+.login{
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid black;
+    font-size: 18px;
+}
+
+h3{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input{
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+input[type=submit]{
+    padding: 20px;
+    background-color: rgb(228, 21, 62);
+    border-radius: 15px;
+    color: white;
+}
+
+#idLogin{
+    background-color: white;
+}
